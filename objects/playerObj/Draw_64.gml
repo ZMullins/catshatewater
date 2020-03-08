@@ -1,0 +1,2 @@
+if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+draw_healthbar(x + -25, y + -22, x + 37, y + -30, global.inkleft/global.inkstart*100, $FF000000, $FF0000FF & $FFFFFF, $FF12A000 & $FFFFFF, 0, (($FF000000>>24) != 0), (($FFFFFFFF>>24) != 0));

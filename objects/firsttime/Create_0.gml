@@ -1,0 +1,1 @@
+global.difficulty=0.05;
